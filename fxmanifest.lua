@@ -1,5 +1,5 @@
 fx_version 'cerulean'
-name 'Video NUI'
+name 'ToXiC Video NUI'
 author 'Kakao, M4rk'
 game 'gta5'
 lua54 'yes'
