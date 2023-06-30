@@ -3,7 +3,7 @@ const sourceElement = document.getElementById("source1");
 myVideo.volume = 0.1;
 
 function Wclose() {
-  fetch("https://videonui/close", {
+  fetch("https://toxic_videonui/close", {
     method: "POST",
   }).then()
 }
@@ -16,7 +16,7 @@ function loadDifferentVideo(src){
 
 document.addEventListener('keyup', (e) => {
     if (e.code === "Escape" || e.code === "Backspace") { 
-		fetch("https://videonui/close", {
+		fetch("https://toxic_videonui/close", {
 			method: "POST",
 		}).then()
 	}; 
