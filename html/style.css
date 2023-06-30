@@ -1,0 +1,66 @@
+body {
+  color: white;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: white 0.1vh auto;
+}
+
+.exit {
+  position: absolute;
+  top: -2.5vh;
+  right: 0.2vh;
+  padding: 0.2vh 0.4vh 0.1vh 0.4vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vh;
+}
+
+.window {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vh;
+  height: 30vh;
+  border-top: 3vh;
+  border-right: 0.3vh;
+  border-left: 0.3vh;
+  border-bottom: 0.3vh;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-radius: 0.5vh;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45vh;
+  height: 25vh;
+  border: 0.2vh;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-radius: 0.5vh;
+  padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45vh;
+  height: 25vh;
+}
